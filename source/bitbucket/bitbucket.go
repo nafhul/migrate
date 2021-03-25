@@ -10,8 +10,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/golang-migrate/migrate/v4/source"
 	"github.com/ktrysmt/go-bitbucket"
+	"github.com/nafhul/migrate/v4/source"
 )
 
 func init() {

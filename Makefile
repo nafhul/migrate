@@ -73,7 +73,7 @@ restore-import-paths:
 
 
 rewrite-import-paths:
-	find . -name '*.go' -type f -execdir sed -i '' s%\"github.com/mattes/migrate%\"github.com/$(REPO_OWNER)/migrate%g '{}' \;
+	find . -name '*.go' -type f -execdir sed -i '' s%\"github.com/nafhul/migrate%\"github.com/$(REPO_OWNER)/migrate%g '{}' \;
 
 
 # example: fswatch -0 --exclude .godoc.pid --event Updated . | xargs -0 -n1 -I{} make docs
